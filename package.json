@@ -1,7 +1,7 @@
 {
-  "name": "node-http-server",
-  "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "name": "learnyounode",
+  "version": "1.0.1",
+  "description": "Code for exercises of learnyounode",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js"
