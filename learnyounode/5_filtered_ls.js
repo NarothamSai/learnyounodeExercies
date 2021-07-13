@@ -10,10 +10,11 @@ fs.readdir(directoryPath, function (err, files) {
     return;
   }
 
-  // console.log(filterFiles);
   let filesFiltered = files.filter((elem) => {
     return path.extname(elem) === filterFiles;
   });
 
-  console.log(filesFiltered);
+  filesFiltered.forEach((elem) => {
+    console.log(elem);
+  });
 });
